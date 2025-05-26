@@ -1,0 +1,27 @@
+# baseURL: "https://nstromberg.github.io/travel-blog/"
+baseURL: "/"
+languageCode: "en-us"
+defaultContentLanguageInSubdir: false
+title: "Nathan and Syd Do NYC"
+theme: "PaperMod"
+
+params:
+  homeInfoParams:
+    Title: "NBS in NYC"
+    Content: "Exploring Post-Robert Moses Landscapes"
+
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/nstromberg"
+
+menu:
+  main:
+    - identifier: "about"
+      name: "About"
+      url: "/about/"
+      weight: 1
+    - identifier: "posts"
+      name: "Posts"
+      url: "/posts/"
+      weight: 2
+
