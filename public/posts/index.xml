@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Nathan and Syd Do NYC</title>
-    <link>//localhost:1313/posts/</link>
+    <link>http://localhost:1313/travel-blog/posts/</link>
     <description>Recent content in Posts on Nathan and Syd Do NYC</description>
     <generator>Hugo -- 0.147.5</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 26 May 2025 13:05:45 -0400</lastBuildDate>
-    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/travel-blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Entering the Arena</title>
-      <link>//localhost:1313/posts/first-day/</link>
+      <link>http://localhost:1313/travel-blog/posts/first-day/</link>
       <pubDate>Mon, 26 May 2025 13:05:45 -0400</pubDate>
-      <guid>//localhost:1313/posts/first-day/</guid>
+      <guid>http://localhost:1313/travel-blog/posts/first-day/</guid>
       <description>&lt;h2 id=&#34;getting-there&#34;&gt;Getting There&lt;/h2&gt;
 &lt;p&gt;Because of the recent Newark incidents, Syd and I decided to fly into LGA instead. What&amp;rsquo;s the overunder on how long it takes to get from LGA to midtown? I say an hour. And Uber price? $100.&lt;/p&gt;</description>
     </item>
