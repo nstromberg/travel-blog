@@ -1,5 +1,4 @@
-# baseURL: "https://nstromberg.github.io/travel-blog/"
-baseURL: "/"
+baseURL: "https://nstromberg.github.io/travel-blog/"
 languageCode: "en-us"
 defaultContentLanguageInSubdir: false
 title: "Nathan and Syd Do NYC"
