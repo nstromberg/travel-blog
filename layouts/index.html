@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ .Title }}</title>
+    {{ partial "head.html" . }}
+  </head>
+  <body>
+    {{ partial "header.html" . }}
+
+    <main>
+      {{ .Content }}          {{/* renders _index.md content */}}
+      {{ partial "map-home.html" . }}
+    </main>
+
+    {{ partial "footer.html" . }}
+  </body>
+</html>
