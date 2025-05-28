@@ -1,0 +1,29 @@
+<div id="map" style="height: 500px;"></div>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const map = L.map('map').setView([20, 0], 2);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: 'Map data © OpenStreetMap contributors',
+    }).addTo(map);
+
+    const markers = [
+      {{- range where .Site.RegularPages "Params.latitude" "!=" nil -}}
+        {
+          lat: {{ .Params.latitude }},
+          lon: {{ .Params.longitude }},
+          url: "{{ .RelPermalink }}",
+          title: "{{ .Title | safeJS }}"
+        },
+      {{- end -}}
+    ];
+
+    markers.forEach(marker => {
+      L.marker([marker.lat, marker.lon])
+        .addTo(map)
+        .bindPopup(`<a href='${marker.url}'>${marker.title}</a>`);
+    });
+  });
+</script>
