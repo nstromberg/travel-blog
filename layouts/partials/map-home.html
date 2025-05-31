@@ -11,14 +11,18 @@
     }).addTo(map);
 
     const markers = [
-      {{- range where .Site.RegularPages "Params.latitude" "!=" nil -}}
-        {
-          lat: {{ .Params.latitude }},
-          lon: {{ .Params.longitude }},
-          url: "{{ .RelPermalink }}",
-          title: "{{ .Title | safeJS }}"
-        },
-      {{- end -}}
+      {{ range .Site.RegularPages }}
+        {{ $lat := .Param "latitude" }}
+        {{ $lon := .Param "longitude" }}
+        {{ if and $lat $lon }}
+          {
+            lat: {{ $lat }},
+            lon: {{ $lon }},
+            url: "{{ .RelPermalink }}",
+            title: "{{ .Title | safeJS }}"
+          },
+        {{ end }}
+      {{ end }}
     ];
 
     markers.forEach(marker => {

@@ -1,0 +1,8 @@
+/* Center all images in post content */
+.single-content  img,
+.post-content img {
+  display: block !important;
+  margin: 1.5rem auto !important;
+  max-width: 100%;
+  height: auto;
+}

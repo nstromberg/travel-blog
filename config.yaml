@@ -4,14 +4,29 @@ defaultContentLanguageInSubdir: false
 title: "Nathan and Syd Do NYC"
 theme: "PaperMod"
 
+markup:
+  goldmark:
+    parser:
+      wrapStandAloneImageWithinParagraph: false
+
 params:
   homeInfoParams:
     Title: "NBS in NYC"
     Content: "Exploring Post-Robert Moses Landscapes"
 
+  assets:
+    customCSS:
+      - css/custom.css
+
   socialIcons:
     - name: "github"
       url: "https://github.com/nstromberg"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
 
 menu:
   main:
@@ -27,4 +42,7 @@ menu:
       name: "Posts"
       url: "/posts/"
       weight: 2
+    - name: "📬"
+      url: "https://blogtrottr.com/?subscribe=https://nstromberg.github.io/travel-blog/index.xml"
+      weight: 3
 
