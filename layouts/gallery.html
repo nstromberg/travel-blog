@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <main class="main">
+    <div class="post-content">
+      <article class="post-content">
+        {{ .Content }}
+      </article>
+    </div>
+
+    {{ partial "gallery.html" . }}
+  </main>
+{{ end }}

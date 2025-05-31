@@ -19,6 +19,10 @@ menu:
       name: "About"
       url: "/about/"
       weight: 1
+    - identifier: "gallery"
+      name: "Gallery"
+      url: "/gallery/"
+      weight: 3
     - identifier: "posts"
       name: "Posts"
       url: "/posts/"

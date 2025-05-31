@@ -1,0 +1,57 @@
+<style>
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.gallery-item {
+  position: relative;
+  width: 300px;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.gallery-caption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0.5rem;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover .gallery-caption {
+  opacity: 1;
+}
+</style>
+
+<div class="gallery">
+  {{ range where .Site.RegularPages "Params.gallery_images" "!=" nil }}
+    {{ $page := . }}
+    {{ range $page.Params.gallery_images }}
+      {{ with $page.Resources.GetMatch . }}
+        <div class="gallery-item">
+          <a href="{{ $page.RelPermalink }}">
+            <img src="{{ .RelPermalink }}" alt="{{ $page.Title }}">
+            <div class="gallery-caption">{{ $page.Title }}</div>
+          </a>
+        </div>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</div>
