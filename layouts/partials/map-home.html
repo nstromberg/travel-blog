@@ -3,32 +3,40 @@
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const map = L.map('map').setView([40.7128, -74.0060], 10);
+  const map = L.map('map').setView([40.7447, -73.9578], 12);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+</script>
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: 'Map data © OpenStreetMap contributors',
-    }).addTo(map);
+{{/* Group posts by lat+lon string key */}}
+{{- $grouped := dict -}}
+{{- range $i, $p := where .Site.RegularPages "Params.latitude" "!=" nil -}}
+  {{- $lat := $p.Params.latitude -}}
+  {{- $lon := $p.Params.longitude -}}
+  {{- $key := printf "%.4f,%.4f" $lat $lon -}}
 
-    const markers = [
-      {{ range .Site.RegularPages }}
-        {{ $lat := .Param "latitude" }}
-        {{ $lon := .Param "longitude" }}
-        {{ if and $lat $lon }}
-          {
-            lat: {{ $lat }},
-            lon: {{ $lon }},
-            url: "{{ .RelPermalink }}",
-            title: "{{ .Title | safeJS }}"
-          },
-        {{ end }}
+  {{/* Initialize the key with a slice if it doesn't exist, then append */}}
+  {{- if not (isset $grouped $key) -}}
+    {{- $grouped = merge $grouped (dict $key (slice $p)) -}}
+  {{- else -}}
+    {{- $currentPosts := index $grouped $key -}}
+    {{- $updatedPosts := append $currentPosts $p -}}
+    {{- $grouped = merge $grouped (dict $key $updatedPosts) -}}
+  {{- end -}}
+{{- end -}}
+
+<script>
+{{ range $coord, $posts := $grouped }}
+  {{- $coordParts := split $coord "," }}
+  {
+    const popupContent = `
+      <strong>Posts at this location:</strong><br/>
+      {{ range sort $posts "Date" "desc" }}
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a> <small>({{ .Date.Format "Jan 2" }})</small><br/>
       {{ end }}
-    ];
-
-    markers.forEach(marker => {
-      L.marker([marker.lat, marker.lon])
-        .addTo(map)
-        .bindPopup(`<a href='${marker.url}'>${marker.title}</a>`);
-    });
-  });
+    `;
+    L.marker([{{ index $coordParts 0 }}, {{ index $coordParts 1 }}])
+      .addTo(map)
+      .bindPopup(popupContent);
+  }
+{{ end }}
 </script>
