@@ -22,4 +22,10 @@ Speaking of tiny martini glasses, we went to Mace which was recommended by a fri
 
 I liked that all the cocktails featured a different central ingredient and really played that up with tinctures and liqeurs. 
 ![sydney with drink](drinks.jpeg)
+
 ## Syd's Take
+I freakin loved this place. Everything had a taste of something new and something familiar - a comfortable amount of boundary-pushing for me. It solidified my opinion that more savory beverage options should exist in the world (I could chug the cucumber aquachile). And that carrots are a bomb.com vegetable.
+
+Super great price (this strongly competes with our first anniversary dinner that was waaay more expensive) and the staff was very-down-earth and obviously passionate about food - it was giving Kuntz-family dinner.
+
+Mace was good and had so many fun options!! I don't think I've heard of 75% of the ingredients that were in these things but let them cook forreal. Only vibe-killer was that we were seated in the back room corner away from everyone else in there and I felt like I was in trouble lol.

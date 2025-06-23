@@ -15,3 +15,4 @@ The drink selection was fun, they had several collab beers with the brewery down
 Overall I thought it was delicious and exciting, but I'm not sure it's the best restaurant in NYC. I preferred [Mam](/travel-blog/posts/mam) but this was still fantastic!
 
 ## Sydney's Take
+Holy crap, we are on a roll! I'm still thinking about the dosa with the spiced, mashed lentils (and potatoes?) and onions and the light dough holding it all together. The short rib and oxtail were succulent and fell right off that bone. More than the lobster, I liked the the sauce that came with the lobster (where my savory drink-heads at!?!). Definitely the best Indian food I've ever had.
