@@ -1,6 +1,5 @@
 +++
 date = '2025-06-09'
-draft = true
 title = 'Mắm'
 latitude = 40.717180980215154
 longitude = -73.99341517864832

@@ -1,6 +1,5 @@
 +++
 date = '2025-06-18T17:31:34-04:00'
-draft = true
 title = 'Semma'
 latitude = 40.73612792517678
 longitude = -74.00062827679803

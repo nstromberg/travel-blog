@@ -1,6 +1,5 @@
 +++
 date = '2025-06-10'
-draft = true
 title = 'Anniversary Dinner'
 latitude = 40.71801557373186
 longitude = -73.99070540378536
