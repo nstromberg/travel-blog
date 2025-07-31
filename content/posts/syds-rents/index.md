@@ -1,8 +1,8 @@
 +++
 date = '2025-06-13T17:31:34-04:00'
 title = 'Dicks Do NYC'
-latitude = 40.73612792517678
-longitude = -74.00062827679803
+latitude = 40.756500
+longitude = -73.984611
 +++
 Syd's rentals take on the BIG CITY
 
@@ -27,7 +27,7 @@ The day started very wholesome, very education-centered. Tectonic plates, Teddy 
 @Mia are you quivering rn
 
 ![dad admiring Earth](small_dad.jpeg)
-Look at this guy /<3
+Look at this guy <3
 
 That's where the G-rated fun ends, folks. We headed directly to the bars after the museum (there was a 2 hour nap and snack break). My dad loved this on-fire banana cocktail so much he ordered it twice which is very on par. 
 ![cocktail](cocktail.jpeg)
@@ -63,6 +63,3 @@ Keen's is **the** iconic New York steakhouse, perfect for a dinner to finish the
 We love you guys and are so happy you came to see us for the weekend! I know it's very different from a Phoenix visit, but I hope you liked the food you ate and the things you saw. You're big city steppers now!!
 
 Love you!
-
-
-
