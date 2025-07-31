@@ -15,27 +15,33 @@ Mama y papa seem to bring rain wherever they visit Nathan and me, but does that 
 Starting the weekend off strong, we met them for drinks and dinner at their hotel, the Chatwal from *The Unbound Collection by Hyatt*. It was giving the Hollywood Hotel before it was the Tower of Terror, so really good art deco but slightly creepy. The drinks were solid and the food was solid, but I think definitely on the lower end of our list compared to the rest of the weekend. 
 
 But high spirits for these love birds!
-![parents kissing](kissy_kissy.jpeg)
+
+![parents kissing](kissy_kissy.JPG)
 
 ## NHM and middle fingers...
 
 The day started very wholesome, very education-centered. Tectonic plates, Teddy Roosevelt, deep sea creatures, and ...climate change!! Thank you Natural History Museum!
 
-![parents and nate with whale](whale.jpeg)
+![parents and nate with whale](whale.JPG)
 
-![bugs](bugs.jpeg)
+![bugs](bugs.JPG)
+
 @Mia are you quivering rn
 
-![dad admiring Earth](small_dad.jpeg)
+![dad admiring Earth](small_dad.JPG)
+
 Look at this guy <3
 
 That's where the G-rated fun ends, folks. We headed directly to the bars after the museum (there was a 2 hour nap and snack break). My dad loved this on-fire banana cocktail so much he ordered it twice which is very on par. 
-![cocktail](cocktail.jpeg)
+
+![cocktail](cocktail.JPG)
 
 Next, we had dinner at Lola's, which I remember really enjoying, but I guess not enough to take any pictures... There were dumplings, roasted oysters, a few salads, and good cocktails.
 
 The poor Oilers were playing that night so we tried to get a spot at the Canuck to finish watching the game, but that idea bombed after 25 minutes in a line and a few street beers. Onward and upward, we found a much less frequented sports bar to watch the game in peace. 
-![middle fingers](middle_fingers.jpeg)
+
+![middle fingers](middle_fingers.JPG)
+
 SIKE it wasn't peaceful - Mom and Nathan were beefing on who was more drunk.
 
 ## Rain break = Central Park peruse
@@ -46,17 +52,19 @@ Waking up bright-eyed and bushy-tailed, we spent the morning strolling through C
 - visiting the Conservatory Garden
 - seeing a snapping turtle that could eat Mimi
 
-![pond](centralp_pond.jpeg)
+![pond](centralp_pond.JPG)
 
-![cool plant](leaf.jpeg)
 
-![snapping turtle](turtle.jpeg)
+![cool plant](leaf.JPG)
+
+
+![snapping turtle](turtle.JPG)
 
 ## Keen's
 
 Keen's is **the** iconic New York steakhouse, perfect for a dinner to finish the trip! Pipes line the ceilings and walls because it used to be a pipe lounge where the rich and famous would store their pipes and check them out for use when they visited. If I went back, I'd only order a steak (or the mutton) and a baked potato with a glass of wine - those items were fantastic. I could pass on pretty much everything else.
 
-![steak](steak.jpeg)
+![steak](steak.JPG)
 
 ## Thanks for visiting!!
 
