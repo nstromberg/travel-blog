@@ -41,17 +41,15 @@
 </style>
 
 <div class="gallery">
-  {{ range where .Site.RegularPages "Params.gallery_images" "!=" nil }}
+  {{ range .Site.RegularPages }}
     {{ $page := . }}
-    {{ range $page.Params.gallery_images }}
-      {{ with $page.Resources.GetMatch . }}
-        <div class="gallery-item">
-          <a href="{{ $page.RelPermalink }}">
-            <img src="{{ .RelPermalink }}" alt="{{ $page.Title }}">
-            <div class="gallery-caption">{{ $page.Title }}</div>
-          </a>
-        </div>
-      {{ end }}
+    {{ range $page.Resources.ByType "image" }}
+      <div class="gallery-item">
+        <a href="{{ $page.RelPermalink }}">
+          <img src="{{ .RelPermalink }}" alt="{{ $page.Title }}">
+          <div class="gallery-caption">{{ $page.Title }}</div>
+        </a>
+      </div>
     {{ end }}
   {{ end }}
 </div>
